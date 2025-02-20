@@ -16,7 +16,7 @@ public class Capitalize {
         for (int i = 0; i < str.length(); i++) {
 
             // If it is the first character AND it is a letter.
-            if (i == 0 && Character.isLetter(str.charAt(i))) {
+            if (i == 0) {
                 // Capitalize it and print out.
                 System.out.print(Character.toUpperCase(str.charAt(i)));
                 // Start from next item in string.
@@ -25,8 +25,8 @@ public class Capitalize {
 
             // If we're not at the first character AND the character is a letter AND the preceding character
             // is NOT a letter
-            if (i > 0 && Character.isLetter(str.charAt(i)) && !Character.isLetter(str.charAt(i - 1))) {
-                // Capitalize the letter and print it out.
+            if (i > 0 && !Character.isLetter(str.charAt(i - 1))) {
+                // Print out the character, capitalized if possible.
                 System.out.print(Character.toUpperCase(str.charAt(i)));
                 // Continue iteration from next item.
                 continue;

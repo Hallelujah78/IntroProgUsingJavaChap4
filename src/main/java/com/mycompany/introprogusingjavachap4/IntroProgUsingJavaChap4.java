@@ -21,6 +21,5 @@ public class IntroProgUsingJavaChap4 {
         String input = scan.nextLine();
         //
         Capitalize.printCapitalized(input);
-
     }
 }
