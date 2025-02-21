@@ -21,5 +21,9 @@ public class IntroProgUsingJavaChap4 {
         String input = scan.nextLine();
         //
         Capitalize.printCapitalized(input);
+
+        // Exercise 2 - get the hex value from a char
+        int intValOfHexValue = HexValue.hexValue('G');
+        System.out.println("\nThe int val: " + intValOfHexValue);
     }
 }
