@@ -43,12 +43,13 @@ public class IntroProgUsingJavaChap4 {
 //        int numRolls = RollDie.getNumRolls(2);
 //        System.out.println("The number of dice rolls to roll 2 is: " + numRolls);
         // Exercise 4.
-        System.out.println("\t\tTotal On Dice\t\tAverage Number of Rolls");
-        System.out.println("\t\t-------------\t\t-----------------------");
-        for (int i = 2; i <= 12; i++) {
-            double rolls = RollDie.monteCarlo(10000, i);
-            System.out.println("\t\t\t" + i + "\t\t\t" + rolls);
-        }
-
+//        System.out.println("\t\tTotal On Dice\t\tAverage Number of Rolls");
+//        System.out.println("\t\t-------------\t\t-----------------------");
+//        for (int i = 2; i <= 12; i++) {
+//            double rolls = RollDie.monteCarlo(10000, i);
+//            System.out.println("\t\t\t" + i + "\t\t\t" + rolls);
+//        }
+        // 3N+1 problem (not part of exercises)
+        ThreeNPlusOne.threeNPlusOne(9);
     }
 }
