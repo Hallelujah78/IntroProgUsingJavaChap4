@@ -50,6 +50,10 @@ public class IntroProgUsingJavaChap4 {
 //            System.out.println("\t\t\t" + i + "\t\t\t" + rolls);
 //        }
         // 3N+1 problem (not part of exercises)
-        ThreeNPlusOne.threeNPlusOne(9);
+//        ThreeNPlusOne.threeNPlusOne(9);
+// chapter 4.3.4 print all divisors of a number
+//        AllDivisors.printDivisors(220);
+        // 4.3.4 print row and print characters - reusing methods to build complexity.
+        PrintRow.printRowsFromString("(-fabulosity-)");
     }
 }
