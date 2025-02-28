@@ -54,6 +54,7 @@ public class IntroProgUsingJavaChap4 {
 // chapter 4.3.4 print all divisors of a number
 //        AllDivisors.printDivisors(220);
         // 4.3.4 print row and print characters - reusing methods to build complexity.
-        PrintRow.printRowsFromString("(-fabulosity-)");
+//        PrintRow.printRowsFromString("(-fabulosity-)");
+        Stars.stars(0);
     }
 }
